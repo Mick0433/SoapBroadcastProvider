@@ -17,6 +17,9 @@ namespace SoapBroadcastProvider
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
+        [OperationContract]
+        void InsertTime(DateTime time);
+
         // TODO: Add your service operations here
     }
 
